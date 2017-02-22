@@ -1,0 +1,17 @@
+<% include ./partials/header.ejs %>
+        <h1>Players</h1>
+        <table class = "table table-stripped">
+            <td>
+                <th>First Name</th>
+                <th> Last Name</th>
+                <th>Number</th>
+            </td>
+            <% for (var i = 0; i < players.length; i++) { %>
+            <tr>
+                <td><%= games[i].firstname %></td>
+                <td><%= games[i].lastname %></td>
+                <td><%= games[i].number %></td>
+            </tr>
+            <% } %>
+        </table>
+<% include ./partials/footer.ejs %>   
