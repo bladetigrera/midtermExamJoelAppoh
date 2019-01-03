@@ -4,7 +4,7 @@
   "private": true,
   "description": "",
   "scripts": {
-    "serve": "server.js",
+    "server": "nodemon server.js",
     "start": "node ./bin/www"
   },
   "dependencies": {
